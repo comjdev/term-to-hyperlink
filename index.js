@@ -40,7 +40,7 @@ function addHyperlinksToCopy(text, term, url, options) {
 	const linkedText = replaceTermWithLink(text, term, hyperlink);
 
 	// Step 3: (Optional) Replace the capitalised term with the hyperlink
-	if (!beginsWithUppercaseLetter(term)) return linkedText;
+	if (beginsWithUppercaseLetter(term)) return linkedText;
 
 	const capitalizedTerm = term.charAt(0).toUpperCase() + term.slice(1);
 	const capitalizedHyperlink = getHyperlink(capitalizedTerm, url, options);
