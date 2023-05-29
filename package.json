@@ -1,0 +1,19 @@
+{
+	"name": "@comjdev/term-to-hyperlink",
+	"version": "0.1.0",
+	"description": "JavaScript plugin for finding word combinations in plain text and converting them into HTML links.",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/comjdev/term-to-hyperlink.git"
+	},
+	"author": "Christoph Juergens",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/comjdev/term-to-hyperlink/issues"
+	},
+	"homepage": "https://github.com/comjdev/term-to-hyperlink#readme"
+}
